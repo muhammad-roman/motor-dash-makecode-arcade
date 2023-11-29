@@ -1,0 +1,12 @@
+{
+    "image2": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAADwDwAAAAAA8H/1DwAAAAB/9/X2/wAAAH93//b/AAAA///3DwAAAAAA8PcAAADwAADw9wAAAPAAAH/3AAAAf///d/8AAABff3f39Q8AAP/wf19v9v8AAADwX2/2/wAAAABf9Q8AAAAAAPAPAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "scooter"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myImages"
+    }
+}
