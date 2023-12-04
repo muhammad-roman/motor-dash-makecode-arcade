@@ -13,8 +13,6 @@ namespace myTiles {
     //% fixedInstance jres blockIdentity=images._tile
     export const tile5 = image.ofBuffer(hex``);
     //% fixedInstance jres blockIdentity=images._tile
-    export const tile6 = image.ofBuffer(hex``);
-    //% fixedInstance jres blockIdentity=images._tile
     export const tile7 = image.ofBuffer(hex``);
     //% fixedInstance jres blockIdentity=images._tile
     export const tile9 = image.ofBuffer(hex``);
@@ -24,6 +22,10 @@ namespace myTiles {
     export const tile10 = image.ofBuffer(hex``);
     //% fixedInstance jres blockIdentity=images._tile
     export const tile11 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile13 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile6 = image.ofBuffer(hex``);
     //% fixedInstance jres blockIdentity=images._tile
     export const tile12 = image.ofBuffer(hex``);
 
@@ -121,8 +123,6 @@ namespace myTiles {
             case "tile4":return tile4;
             case "myTile0":
             case "tile5":return tile5;
-            case "Spike1":
-            case "tile6":return tile6;
             case "myTile1":
             case "tile7":return tile7;
             case "sign_up":
@@ -133,7 +133,11 @@ namespace myTiles {
             case "tile10":return tile10;
             case "sign_danger":
             case "tile11":return tile11;
-            case "Spike2":
+            case "spike_up":
+            case "tile13":return tile13;
+            case "spike_down":
+            case "tile6":return tile6;
+            case "spike_center":
             case "tile12":return tile12;
         }
         return null;
